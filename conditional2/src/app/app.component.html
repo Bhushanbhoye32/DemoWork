@@ -1,0 +1,19 @@
+<h2>For Loop *ngFor</h2>
+<hr/>
+<div id="Main">
+<ng-container *ngFor="let i of arr;let k=index">
+  <p>{{i}}&nbsp;&nbsp;index is:{{k}}</p>
+</ng-container>
+</div>
+
+<hr>
+
+<div id="minion">
+  <div *ngFor="let i of arr2;let idx=index" id="bdy">
+  <img src="{{i.image}}">
+  <p>{{i.title}}</p>
+  <p>Price:{{i.price}}</p>
+
+  </div>
+</div>
+

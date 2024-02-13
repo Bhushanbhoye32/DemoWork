@@ -1,0 +1,21 @@
+#minion{
+  
+}
+#bdy img
+{
+width:50px;
+height: 50px;
+}
+#bdy
+{
+    height: 200px;
+    width:25%;
+    background-color: #b7d7f1;
+    padding: 10px;
+    margin-bottom: 30px;
+
+
+    display:grid;
+    grid-template-columns:auto,auto;
+
+}
