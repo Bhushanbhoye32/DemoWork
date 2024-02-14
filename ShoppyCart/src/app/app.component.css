@@ -1,0 +1,19 @@
+
+
+  #bdy img
+  {
+    width: 70px;
+    height: 80px;
+  }
+  #main
+  {
+    display: grid;
+    grid-template-columns: 33% 33% auto ;
+    grid-gap: 10px;
+  }
+  #bdy{
+    border:solid 1px black;
+    text-align: center;
+   padding: 10px;
+   background-color: rgba(181, 237, 229, 0.8);
+  }

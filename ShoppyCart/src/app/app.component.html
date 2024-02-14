@@ -1,0 +1,11 @@
+<app-header [Count]="count"></app-header>
+
+ <div id="main">
+  <div *ngFor="let i of arr2" id="bdy">
+  <img src="{{i.image}}">
+  <p>{{i.title}}</p>
+  <p>Price:${{i.price}}</p>
+  <button (click)="inc()" >Add to Cart</button>
+  <button (click)="dec()" >-</button>
+  </div>
+</div> 

@@ -1,0 +1,19 @@
+img{
+    height: 30px;
+    padding-right: 15px;
+}
+button
+{
+    font-size: large;
+    background-color: rgb(243, 224, 174);
+    border-radius: 25px;
+    width:100px;
+}
+p{
+    font-size: large;
+}
+#head
+{
+margin-right: 30px;
+    text-align: right;
+}
