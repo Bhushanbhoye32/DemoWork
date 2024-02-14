@@ -1,0 +1,35 @@
+#main
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+#body img
+{
+    height: 250px;
+    width:250px
+}
+#body
+{
+    border:2px solid red;
+    margin:20px;
+    text-align: center;
+    padding: 15px;
+    transition: 1s;
+    box-shadow: 5px 5px grey ;
+    
+}
+#body:hover
+{
+    background-color: antiquewhite;
+    scale:1.05;
+}
+.dark{
+    background-color: black;
+    color:white;
+}
+.normal{
+    background-color: white;
+    color:black;
+}

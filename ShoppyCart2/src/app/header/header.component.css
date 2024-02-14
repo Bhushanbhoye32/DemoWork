@@ -1,0 +1,29 @@
+#head
+{
+    border:1px blue solid;
+    width:130px;
+    margin-left: 1000px;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-top:-45px;
+    background-color: lightsteelblue;
+}
+.dark{
+    background-color: black;
+    color:white;
+}
+.normal{
+    background-color: white;
+    color:black;
+}
+#head img
+{
+    height: 30px;
+    width:30px;
+}
+#btn img
+{
+    height: 40px;
+    width:40px;
+}
