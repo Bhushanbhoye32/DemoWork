@@ -5,6 +5,7 @@
   <img src="{{i.image}}">
   <p>{{i.title}}</p>
   <p>Price:${{i.price}}</p>
+  <p>Date:{{dt|date}}</p>
   <button (click)="inc()" >Add to Cart</button>
   <button (click)="dec()" >-</button>
   </div>

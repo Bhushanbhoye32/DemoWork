@@ -7,4 +7,6 @@ import { Component ,Input} from '@angular/core';
 })
 export class HeaderComponent {
 @Input() Count:any
+
+dt=new Date;
 }

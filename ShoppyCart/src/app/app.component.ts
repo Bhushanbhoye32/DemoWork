@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ShoppyCart';
-
+  dt=new Date;
   arr3=[]
   constructor()
   {
