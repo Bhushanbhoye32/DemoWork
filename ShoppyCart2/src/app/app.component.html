@@ -1,10 +1,12 @@
 <app-header [c]="count" #hc></app-header>
 <div id="main" [ngClass]="{'dark':hc.isDark}">
 <div id="body" *ngFor="let i of arr1">
-<img src="{{i.image}}">
+<img src="{{i.images}}">
 <p>Name: {{i.title | halfName}}</p>
 <p>Price: {{i.price*83 |currency:'INR'}}</p>
 <button (click)="inc()">Add to Cart</button>
 <button (click)="dec()">-</button>
 </div>
 </div>
+
+<app-footer></app-footer>

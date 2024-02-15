@@ -18,7 +18,7 @@
     padding: 15px;
     transition: 1s;
     box-shadow: 5px 5px grey ;
-    
+    border-radius: 20px;
 }
 #body:hover
 {
@@ -32,4 +32,11 @@
 .normal{
     background-color: white;
     color:black;
+}
+button
+{
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
 }

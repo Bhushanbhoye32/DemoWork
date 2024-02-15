@@ -8,19 +8,18 @@ import { Component, ViewChild } from '@angular/core';
 export class AppComponent {
   title = 'ShoppyCart2';
 
-  @ViewChild('header') hc:any
-
   count=0;
   arr1:any[]=[];
   constructor()
   {
-    fetch("https://fakestoreapi.com/products")
+    fetch("https://api.escuelajs.co/api/v1/products")
     .then((res)=>res.json())
     .then((data)=>this.arr1=data)
   }
   inc()
   {
     this.count++;
+    alert("Item Added to Cart")
   }
   dec()
   {
